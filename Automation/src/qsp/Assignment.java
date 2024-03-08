@@ -19,16 +19,16 @@ public class Assignment {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
 		driver.get("https://www.hdfclife.com/term-insurance-plans/term-insurance-calculator");
-		driver.findElement(By.id("fnameBannerForm")).sendKeys("Shrikant");
+		driver.findElement(By.id("fnameBannerForm")).sendKeys("Ayesha Shekhar Pali");
 	driver.findElement(By.id("yes_nriBannerForm")).click();
 	driver.findElement(By.id("femaleBannerForm")).click();
 	driver.findElement(By.id("yesBannerForm")).click();
-	driver.findElement(By.id("email")).sendKeys("shrikantchincholkar4455@gmail.com");
+	driver.findElement(By.id("email")).sendKeys("pali65@gmail.com");
 	Thread.sleep(5000);
 	
 	driver.findElement(By.id("code")).sendKeys("91");
 	Thread.sleep(5000);
-	driver.findElement(By.xpath("(//input[@placeholder='Enter Mobile'])[2]")).sendKeys("8888607660");
+	driver.findElement(By.xpath("(//input[@placeholder='Enter Mobile'])[2]")).sendKeys("9876543210");
 
 	
 	driver.findElement(By.name("dateBirth")).click();
